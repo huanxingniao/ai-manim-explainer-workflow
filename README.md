@@ -1,4 +1,4 @@
-# 🎬 Agent Workflow: Manim Explainer
+# 🎬 一键生成一条科普视频
 
 > A fully automated AI workflow for Large Language Models (LLMs) to generate high-quality, audio-driven Manim explanatory videos from scratch.
 
@@ -58,8 +58,10 @@ pip install -r requirements.txt
 ## 🛠 给普通开发者的阅读指北（面向未来博客集成）
 
 如果你想将此类工作流展示在自己的博客上：
+
 1. **模块化设计**: `.agent/workflows/` 下的 `manim-explainer.md` 包含标准 YAML Frontmatter，原生支持 VitePress / Hugo 等主流静态或者部署平台解析。
 2. **完全可插拔**: Puedes easily adapt the prompt sections to invoke entirely different animation tools while keeping the same meta-workflow mechanism.
 
 ## 📄 许可 (License)
+
 MIT
