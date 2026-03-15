@@ -1,8 +1,7 @@
 # 🎬 一键生成一条科普视频
 
 > A fully automated AI workflow for Large Language Models (LLMs) to generate high-quality, audio-driven Manim explanatory videos from scratch.
-
-![Manim Explainer Workflow Demo](./assets/demo.gif) *(可在此处放置一个生成好的视频转GIF或静态封面)*
+![Manim Explainer Workflow Demo](./assets/demo.gif) *(以上是由本 Workflow 全自动生成的视听效果截段)*
 
 ## 🌟 核心特性 (Features)
 
@@ -63,5 +62,10 @@ pip install -r requirements.txt
 2. **完全可插拔**: Puedes easily adapt the prompt sections to invoke entirely different animation tools while keeping the same meta-workflow mechanism.
 
 ## 📄 许可 (License)
-
 MIT
+
+---
+
+### 🎥 效果演示
+
+[▶️ 点击查看带配音的完整成品视频](./assets/attention_v4_demo.mp4)
