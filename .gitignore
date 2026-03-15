@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Manim
+media/
+videos/
+images/
+texts/
+partial_movie_files/
+*_manim.json
+timing.json
+events.json
+
+# Temp
+/tmp/
+.DS_Store
