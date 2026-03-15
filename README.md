@@ -1,11 +1,11 @@
 # 🎬 一键生成一条科普视频
 
-> A fully automated AI workflow for Large Language Models (LLMs) to generate high-quality, audio-driven Manim explanatory videos from scratch.
-![Manim Explainer Workflow Demo](./assets/demo.gif) *(以上是由本 Workflow 全自动生成的视听效果截段)*
+> 为什么做一个科普视频这么难？剧本改了又改、音画对不齐、代码调不完。这个项目提供了一套给 AI Agent（如小龙虾、Claude 等）使用的工作流，让模型能够自动编排剧本、生成音频并实现像素级的音画同步，彻底解决科普视频生产流程复杂、复现困难的问题。
+> ![Manim Explainer Workflow Demo](./assets/demo.gif) *(以上是由本 Workflow 全自动生成的视听效果截段)*
 
 ## 🌟 核心特性 (Features)
 
-这是专为 AI 编码助手（如 ClaudeCode, OpenVite, 等）设计的元工作流文档。将其喂给 Agent，它将完全自动化运行以下全套流程：
+这是专为 AI 编码助手（如 小龙虾,ClaudeCode等）设计的元工作流文档。将其喂给 Agent，它将完全自动化运行以下全套流程：
 
 - **🎙️ 声画驱动范式 (Audio-Driven Architecture)**: 彻底抛弃传统的硬编码 `self.wait(N)`。先生成 TTS 配音，再用 `ffprobe` 测量真实时长驱动主时间轴；结合 `Whisper` 的词级时间戳，实现精准渲染动画。
 - **🧠 自动视听脚本编排**: 从主题自动规划六段式大纲（含🪝钩子句、⚙️机制句、🔗过渡句），保证科普视频的高信息密度。
@@ -62,6 +62,7 @@ pip install -r requirements.txt
 2. **完全可插拔**: Puedes easily adapt the prompt sections to invoke entirely different animation tools while keeping the same meta-workflow mechanism.
 
 ## 📄 许可 (License)
+
 MIT
 
 ---
